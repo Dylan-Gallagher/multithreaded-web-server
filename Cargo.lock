@@ -5,3 +5,11 @@ version = 3
 [[package]]
 name = "multithreaded-web-server"
 version = "0.1.0"
+dependencies = [
+ "thread-pool",
+]
+
+[[package]]
+name = "thread-pool"
+version = "0.1.0"
+source = "git+https://github.com/Dylan-Gallagher/rust-thread-pool?branch=main#24f22df91f48e731e6c41e59e84b65b7fe8f0c6f"

@@ -4,3 +4,4 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+thread-pool = { git = "https://github.com/Dylan-Gallagher/rust-thread-pool", branch = "main" }
